@@ -7,16 +7,28 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="./style.css">
-
+<style>
+.triangle {
+width: 0;
+height: 0;
+border-left: 50px solid transparent;
+border-right: 50px solid transparent;
+border-bottom: 100px solid #ff0000;
+clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+</style>
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<!-- Hero -->
+
+
+
+
+  
 <section class="et-hero-tabs" style="
 background-image: url(https://www.fico.com/sites/default/files/2019-09/AdobeStock_199227052_web.jpg);
 background-size: cover;
 ">
-
+<div class="triangle"></div>
 <img src="trossLogo2w.png" style="
 position: absolute;
 left: 36.4%;
